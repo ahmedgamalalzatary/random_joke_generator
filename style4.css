@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Playpen Sans', cursive;
+
+}
+
+body {
+    background-color: #fab22e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99vh;
+}
+
+.wrapper {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem .25rem .05rem rgba(0, 0, 0, 0.1);
+    background-color: #15161a;
+}
+
+
+.wrapper span {
+    font-size: 6rem;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+p {
+    margin: 0 2rem;
+    text-align: center; 
+    line-height: 1.5rem;
+}
+
+button {
+    border: 0;
+    outline: 0;
+    background: none;
+    color: #fab22e;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    text-align: center;
+}
+
+button:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
